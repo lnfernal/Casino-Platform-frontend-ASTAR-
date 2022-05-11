@@ -13,11 +13,11 @@ import "./header.css";
 const CssTextField = withStyles({
     root: {
         "& label.Mui-focused": {
-            color: "var(--block_clr)",
+            color: "var(--white)",
             fontSize: "15px !important",
         },
         "& .MuiInput-underline:after": {
-            borderBottomColor: "var(--block_clr)",
+            borderBottomColor: "var(--white)",
             fontSize: "15px !important",
         },
         "& .MuiOutlinedInput-input": {
@@ -35,20 +35,20 @@ const CssTextField = withStyles({
         },
         "& .MuiOutlinedInput-root": {
             "& fieldset": {
-                borderColor: "var(--menu_list_clr)",
+                borderColor: "var(--white)",
                 fontSize: "15px !important",
             },
             "&:hover fieldset": {
-                borderColor: "var(--hover_clr)",
+                borderColor: "var(--white)",
                 fontSize: "15px !important",
             },
             "&.Mui-focused fieldset": {
-                borderColor: "var(--block_clr)",
+                borderColor: "var(--white)",
                 fontSize: "15px !important",
             },
         },
         "& .MuiInputLabel-outlined": {
-            color: "var(--menu_list_clr)",
+            color: "var(--white)",
             fontSize: "15px !important",
             overflowWrap: "break-word",
         },

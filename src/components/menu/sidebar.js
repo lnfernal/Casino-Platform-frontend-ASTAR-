@@ -73,7 +73,7 @@ function ResponsiveDrawer() {
 
     const drawer = (
         <>
-            <div style={{ paddingLeft: "15px" }}>
+            <div style={{ paddingLeft: "15px" }} onClick={handleDrawerClose}>
                 <Link to="/">
                     <img src="/assets/logo.png" alt="logo" />
                 </Link>
@@ -167,7 +167,7 @@ function ResponsiveDrawer() {
                         },
                     }}
                     variant="persistent"
-                    anchor="left"
+                    anchor="right"
                     open={open}
                 >
                     <DrawerHeader></DrawerHeader>

@@ -12,7 +12,7 @@ export default function LoginTab(props) {
     const { handlemodalclose } = props;
     const wallet = useWallet();
     const user = useSelector((state) => state.auth);
-    const msg = "Welcome to a ICICB Games";
+    const msg = "Welcome to a ASTAR Games";
 
     useEffect(() => {
         if (user.isAuthenticated) {

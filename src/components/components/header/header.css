@@ -27,8 +27,10 @@
 
 .login-disable-btn {
     border-radius: 10px !important;
-    background-color: var(--menu_list_clr) !important;
+    background-color: var(--white) !important;
     padding: 7px !important;
+    color: black !important;
+    font-size: 20px !important;
 }
 
 .login-disable-btn .MuiButton-label {
@@ -43,12 +45,12 @@
 
 .login-enable-btn {
     border-radius: 10px !important;
-    background-color: var(--block_clr) !important;
+    background-color: var(--white) !important;
     padding: 7px !important;
     width: 400px !important;
     font-weight: bold;
     font-size: 20px !important;
-    color: white !important;
+    color: black !important;
 }
 
 .signup {
